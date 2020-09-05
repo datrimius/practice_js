@@ -8,14 +8,31 @@
    
 </head>
 <body>
-   <!-- <div class="container">
+   <div class="container">
       <label><input type="checkbox" id="one" onchange="fun1()"> Hello checkbox!</label>
-   </div> -->
+   </div>
    <div class="container">
       <input type="radio" id="rad" name="r1" value="5"> 0
       <input type="radio" id="rad" name="r1" value="53"> 1
       <input type="radio" id="rad" name="r1" value="535"> 2
-      <button onclick="fun1()">Проверить какой из элементов выбран</button>
+      <button onclick="fun2()">Проверить какой из элементов выбран</button>
+   </div>
+   <div class="container">
+      <select name="" id="mySelect" onchange="fun3()">
+         <option value="">Apple</option>
+         <option value="">Orange</option>
+         <option value="">Pineapple</option>
+         <option value="">Banana</option>
+      </select>
+   </div>
+   <div class="container">
+      <input type="range" min="0" max="100" step="2" oninput="fun4()" name="" id="r2">
+      <input type="text" id="two">
+   </div>
+   
+   <div class="container">
+      <input type="range" min="0" max="100" step="2" oninput="fun5()" name="" id="r3">
+      <div id=test></div>
    </div>
 
 
